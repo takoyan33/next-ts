@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Graph from "./Graph";
 
 const Resas = () => {
   const [prefectures, setPreFectures] = useState("");
@@ -27,7 +26,6 @@ const Resas = () => {
             return <li>{prefecture.prefName}</li>;
           })}
 
-        <Graph />
       </section>
     </>
   );

@@ -23,7 +23,7 @@ const options = {
   ],
   // ログインページを指定する。今回はトップページのため'/'を指定。
   pages: {
-    signIn: "/",
+    signIn: "/login",
   },
 };
 
